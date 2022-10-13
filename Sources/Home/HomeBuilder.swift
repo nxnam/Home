@@ -26,7 +26,7 @@ public protocol HomeBuildable: Buildable {
 
 open class HomeBuilder: Builder<HomeDependency>, HomeBuildable {
 
-    override init(dependency: HomeDependency) {
+    public override init(dependency: HomeDependency) {
         super.init(dependency: dependency)
     }
 
