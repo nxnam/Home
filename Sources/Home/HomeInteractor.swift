@@ -9,7 +9,7 @@
 import RIBs
 import RxSwift
 
-protocol HomeRouting: ViewableRouting {
+public protocol HomeRouting: ViewableRouting {
     // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
 }
 
@@ -18,7 +18,7 @@ protocol HomePresentable: Presentable {
     // TODO: Declare methods the interactor can invoke the presenter to present data.
 }
 
-protocol HomeListener: AnyObject {
+public protocol HomeListener: AnyObject {
     // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
 }
 
