@@ -13,7 +13,7 @@ public protocol HomeDependency: Dependency {
     // created by this RIB.
 }
 
-class HomeComponent: Component<HomeDependency> {
+final class HomeComponent: Component<HomeDependency> {
 
     // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
 }
