@@ -16,7 +16,7 @@ protocol HomePresentableListener: AnyObject {
     // interactor class.
 }
 
-final class HomeViewController: UIViewController, HomePresentable, HomeViewControllable {
+open class HomeViewController: UIViewController, HomePresentable, HomeViewControllable {
 
     weak var listener: HomePresentableListener?
 }
